@@ -100,6 +100,6 @@ final_time[n]=count
 
 for i in range (0,n):
 
-	print "Process          Waiting time       Final time"
+	print "Process          Waiting time       Final time      Turnaround time"
 
-	print process[i],"\t\t",final_time[i]-start_time[i]-arrival[i],"\t\t",final_time[i],"\n"
+	print process[i],"\t\t",final_time[i]-start_time[i]-arrival[i],"\t\t",final_time[i],"\t\t",final_time[i]-arrival[i],"\n"
